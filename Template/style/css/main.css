@@ -1,0 +1,57 @@
+/**
+* this page conatian all our custum classes
+*/
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clear-fix {
+  clear:both;
+}
+
+/*start navbar */
+.nav {
+  position: relative;
+  width:100%;
+  height: 80px;
+  padding:0px 20px 0px 80px;
+  top:0;
+  left:0;
+  background: #fff;
+  border-bttom:1px solid #ccc;
+  overflow: hidden;
+}
+.nav .brand {
+  display: inline-block;
+}
+.nav .brand .nav-brand {
+  float: left;
+  background: #dd5035;
+  padding:20px;
+  font-weight:bold;
+  font-size:20px;
+  color:#fff;
+}
+.nav .nav-link {
+  display: inline-block;
+  margin-left:300px;
+}
+
+.nav .nav-link a {
+  float: left;
+  padding:25px;
+  color:#252525;
+  font-size:15px;
+  border-right:1px solid #f9f8f8;
+}
+.nav .nav-link .active {
+  color:#dfcd85;
+}
+.nav .nav-link a:hover {
+  color:#dfcd85;
+}
+
+/*end navbar*/
